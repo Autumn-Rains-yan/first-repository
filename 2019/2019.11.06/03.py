@@ -29,4 +29,4 @@ for list in range(0, 1000):
     for jsonTemp in jsonInfo:
         jsonList.append(jsonTemp)
 
-json.dump(jsonList, open('./kfc.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+json.dump(jsonList, open('kfc.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
